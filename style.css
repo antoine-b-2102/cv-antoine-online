@@ -88,6 +88,8 @@ h2{
 	background-color: #2c3e50;
 	color:white;	
 }
+.panel-default > .panel-heading:hover{
+	
 
 .espacebloc{
 	margin-bottom: 0px
