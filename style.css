@@ -3,16 +3,18 @@
 	margin:0;
 }
 
-
+/*nav bar*/
 #navbar{
 	margin-bottom: 0px;
 	background-color:#bdc3c7 ;
 	border-color: #bdc3c7;
+}
+.navbar-default .navbar-nav > li > a{
 	color: black;
 }
-
-#colorlinknav{
-	color: black;
+.navbar-default .navbar-nav > li > a:hover{
+	color: white;
+	background-color: #2c3e50;
 }
 
 #name{
@@ -20,6 +22,9 @@
 	font-size: 15px;
 	line-height: 18px;
 }
+
+
+/*footer*/
 footer{
 	background-color: #c0392b;
 	height: 10%;
@@ -80,8 +85,11 @@ h2{
 
 /* experiences*/
 .experiencesbody{
-	background-color: #7f8c8d;
+	background-color: #16a085;
 	color:black;	
+}
+.backcolor{
+	background-color: #2c3e50;
 }
 
 .panel-default > .panel-heading{
@@ -89,9 +97,23 @@ h2{
 	color:white;	
 }
 
+.panel-title > a:hover{
+	color: #16a085;
+	text-decoration: underline;
+}
+
+.panel-title > a:focus{
+    outline-style: none;
+	color: #16a085;
+}
+
 .espacebloc{
 	margin-bottom: 0px
 	margin-top:0px;
+}
+
+.h4white{
+	color:white;
 }
 
 /* formations */
@@ -105,6 +127,7 @@ h2{
 	background-color: #7f8c8d;
 	text-align: center;
 }
+
 
 #complogo{
 
@@ -137,6 +160,7 @@ a:hover{
 	list-style-type: none;
 
 }
+
 /*Suppress bootstrap margin*/
 p{
 	margin-bottom: 0px;
