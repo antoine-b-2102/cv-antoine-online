@@ -21,35 +21,36 @@
 	<body>
 		
 
+		<!-- Début Navbar -->
 
+		<nav class="navbar navbar-default" id="navbar">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" id="name colorlinknav" href="#">Antoine Barbier</a>
+		    </div>
 
-<nav class="navbar navbar-default" id="navbar">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" id="name colorlinknav" href="#">Antoine Barbier</a>
-    </div>
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li><a href="#experiences" id="colorlinknav">Expériences professionnelles <span class="sr-only">(current)</span></a></li>
+		        <li><a href="#formations"  id="colorlinknav">Formations</a></li>
+		        <li><a href="#competences"  id="colorlinknav">Compétences</a></li>
+		        <li><a href="#projets"  id="colorlinknav">Mes projets</a></li>
+		        <li><a href="img\cv-antoine-barbier.pdf"  id="colorlinknav">Télécharger mon CV</a></li>
+		      </ul>
+		      
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#presentation" id="colorlinknav">Présentations <span class="sr-only">(current)</span></a></li>
-        <li><a href="#experiences"  id="colorlinknav">Expériences professionnelles</a></li>
-        <li><a href="#formations"  id="colorlinknav">Formations</a></li>
-        <li><a href="#competences"  id="colorlinknav">Compétences</a></li>
-        <li><a href="#projets"  id="colorlinknav">Mes projets</a></li>
-        <li><a href="img\cv-antoine-barbier.pdf"  id="colorlinknav">Télécharger mon CV</a></li>
-      </ul>
-      
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+		<!-- Fin Navbar -->
     			
 			<!--Début Présentation-->
 		<section id="presentation">
@@ -68,14 +69,14 @@
 
 
 			<!--Début Expériences pro -->
-		<section class="experiences">
+		<section id="experiences">
 			<h1><img src="img\suitcase.png" alt="Expériences professionnelles" class="imgh1">Expériences professionnelles</h1>
-			<div class="panel-group  competencesmarg" id="accordion" role="tablist" aria-multiselectable="true">
+			<div class="panel-group  competencesmarg backcolor" id="accordion" role="tablist" aria-multiselectable="true">
 			  <div class="panel panel-default">
 			    <div class="panel-heading experiencesheading" role="tab" id="headingOne">
 			      <h4 class="panel-title">
 			        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-			          Septembre 2015 à Septembre 2016 Chef de produit digital football Paris
+			          Septembre 2015 à Septembre 2016 Chef de produit digital football Paris ▼
 			        </a>
 			      </h4>
 			    </div>
@@ -92,7 +93,7 @@
 			    <div class="panel-heading experiencesheading" role="tab" id="headingTwo">
 			      <h4 class="panel-title">
 			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-			          Stage en IT développement Avril 2015 à Août 2015
+			          Stage en IT développement Avril 2015 à Août 2015 ▼
 			        </a>
 			      </h4>
 			    </div>
@@ -109,20 +110,20 @@
 			    <div class="panel-heading experiencesheading" role="tab" id="headingThree">
 			      <h4 class="panel-title">
 			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-			          Assistant chef de produit web et mobile Septembre 2014 à Mars 2015
+			          Assistant chef de produit web et mobile Septembre 2014 à Mars 2015 ▼
 			        </a>
 			      </h4>
 			    </div>
 			    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 			      <div class="panel-body  experiencesbody">
 			        <ul>
-						<h4>Site web :</h4>
+						<h4 class="h4white">► Site web :</h4>
 						 	<li>Optimisation SEO des pages dédiées aux évènements et sorties de proximité.</li>
 							<li>Amélioration du parcours d’accueil pour favoriser la rétention.</li>
 							<li>Monétisation du service : augmenter les eCPM.</li>
 							<li>Rédaction d’articles sur le blog.</li>
 							<li>Audit Ergonomique/Audience/SEO du site mapublicitelocale.fr</li>
-						<h4>Applications :</h4>
+						<h4 class="h4white">► Applications :</h4>
 							<li>Recette et suivi de la publication de l’application sur Android et iPhone.</li>
 							<li>App Store Optimization.</li>
 							<li>Suivi Hebdo et mensuel des KPI de l’activité</li>
@@ -134,7 +135,7 @@
 			    <div class="panel-heading experiencesheading" role="tab" id="headingFour">
 			      <h4 class="panel-title">
 			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-			          Conseiller d'accueil Mars 2013 à Août 2014
+			          Conseiller d'accueil Mars 2013 à Août 2014 ▼
 			        </a>
 			      </h4>
 			    </div>
@@ -206,19 +207,44 @@
 
 					Le Challenge est l’une des plus importantes manifestations consacrées à l’entrepreneuriat dans le monde de l’enseignement supérieur.</p>
 				</div>
-					<iframe width="560" height="315" id="video"src="https://www.youtube.com/embed/hVEneP1LU2E" frameborder="0" allowfullscreen></iframe>
-				
+
+				<!-- Button trigger modal -->
+				<a data-toggle="modal" data-target="#myModal"> <img src="img\youtube.png"></a>
 			</section>
 		<!--Fin Projets-->
+		
 		<!--Début footer-->
-		<footer>
+		<footer class="paddingtopbot">
 			<ul>
-				<li>barbier[.]antoine21[at]gmail.com</li>
+				<li class="hidden-xs">barbier[.]antoine21[at]gmail.com</li>
 				<li><a href="https://fr.linkedin.com/in/barbierantoine"><img src="img\linkedin.png" alt="Linkedin" id="linkedin"></a></li>
 				<li><a href="img\cv-antoine-barbier.pdf">Télécharger mon CV</a></li>
 			</ul>
 		</footer>
 		<!--Fin footer-->
+
+			<!-- debut modal -->
+
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Vidéo projet GPSmart</h4>
+		      </div>
+		      <div class="modal-body">
+		        <iframe width="560" height="315" id="video"src="https://www.youtube.com/embed/hVEneP1LU2E" frameborder="0" allowfullscreen></iframe>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+
+		<!-- fin modal -->
 
 		<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
